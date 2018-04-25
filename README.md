@@ -6,7 +6,7 @@ Creates and manages VPC on GCP
 
 ```hcl
 module vpc-module {
-  source = "git@github.com:GMafra/GCP-modules.git//vpc-module"
+  source = "git@github.com:GMafra/terraform-gcp-vpc.git"
   name   = "tf-vpc"
 }
 ```
